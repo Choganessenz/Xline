@@ -30,21 +30,21 @@ function App() {
   };
 
   const openNineLineMenu = () => {
-    window.open('/Speisekarte_NineLine.pdf', '_blank');
+    window.open('/Speisekarte NineLine.pdf', '_blank');
   };
 
   const openFiveLineMenu = () => {
-    window.open('/Speisekarte_FiveLine.pdf', '_blank');
+    window.open('/Speisekarte FiveLine.pdf', '_blank');
   };
 
   const openLightbox = (imageSrc: string) => {
     setSelectedImage(imageSrc);
   };
-
+  
   const closeLightbox = () => {
     setSelectedImage(null);
   };
-
+  
   const galleryImages = [
     { src: 'https://i.imgur.com/yQDh8dP.jpeg', alt: 'Shisha Lounge Impression 1' },
     { src: 'https://i.imgur.com/1tXXub0.jpeg', alt: 'Shisha Lounge Impression 2' },
@@ -59,7 +59,8 @@ function App() {
     { src: 'https://i.imgur.com/MNknBbH.jpeg', alt: 'Shisha Lounge Impression 11' },
     { src: 'https://i.imgur.com/b4S2O9B.jpeg', alt: 'Shisha Lounge Impression 12' },
     { src: 'https://i.imgur.com/9wAqulY.jpeg', alt: 'Shisha Lounge Impression 13' },
-    { src: 'https://i.imgur.com/BbT2h66.jpeg', alt: 'Shisha Lounge Impression 14' }
+    { src: 'https://i.imgur.com/BbT2h66.jpeg', alt: 'Shisha Lounge Impression 14' },
+    { src: 'https://i.imgur.com/9wAqulY.jpeg', alt: 'Shisha Lounge Impression 15' }
   ];
 
   return (
@@ -73,7 +74,7 @@ function App() {
                 alt="NineLine Logo" 
                 className="h-16 md:h-20"
               />
-              <span className="text-2xl md:text-3xl font-bold text-purple-400 ml-2"></span>
+              <span className="text-2xl md:text-3xl font-bold text-purple-400 ml-2">X-Line</span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -422,18 +423,19 @@ function App() {
                 </div>
               </div>
 
-              <div className="md:columns-3 md:gap-6 space-y-6 md:space-y-0">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {galleryImages.map((image, index) => (
                   <div 
-                    key={index}
-                    className="relative group cursor-pointer overflow-hidden rounded-xl shadow-xl mb-6 md:mb-6 break-inside-avoid"
-                    onClick={() => openLightbox(image.src)}
-                  >
-                    <div className="aspect-[3/4] md:aspect-auto overflow-hidden">
+                  key={index}
+                  className="relative cursor-pointer overflow-hidden rounded-xl shadow-xl"
+                  onClick={() => openLightbox(image.src)}
+                >
+                <div className="aspect-[3/4] w-full">
                       <img 
                         src={image.src} 
                         alt={image.alt}
-                        className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover"
+                        loading="eager"
                       />
                     </div>
                   </div>
