@@ -71,11 +71,17 @@ function App() {
       <nav className="bg-black py-2 fixed w-full z-50">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center">
-            <div className="flex items-center">
+          <div className="flex items-center">
               <img 
                 src="https://i.imgur.com/OZqtods.png" 
                 alt="NineLine Logo" 
                 className="h-16 md:h-20"
+              />
+              <div className="mx-2 h-8 md:h-12 w-px bg-white"></div>
+              <img 
+                src="https://i.imgur.com/RHrYpTc.png" 
+                alt="FiveLine Logo" 
+                className="h-16 md:h-20 ml-2"
               />
               <span className="text-2xl md:text-3xl font-bold text-purple-400 ml-2"></span>
             </div>
