@@ -57,10 +57,13 @@ function App() {
     { src: 'https://i.imgur.com/b1Yg6Bh.jpeg', alt: 'Shisha Lounge Impression 9' },
     { src: 'https://i.imgur.com/EWAeqjp.jpeg', alt: 'Shisha Lounge Impression 10' },
     { src: 'https://i.imgur.com/MNknBbH.jpeg', alt: 'Shisha Lounge Impression 11' },
-    { src: 'https://i.imgur.com/b4S2O9B.jpeg', alt: 'Shisha Lounge Impression 12' },
+    { src: 'https://i.imgur.com/mMX7qxB.jpeg', alt: 'Shisha Lounge Impression 12' },
     { src: 'https://i.imgur.com/9wAqulY.jpeg', alt: 'Shisha Lounge Impression 13' },
     { src: 'https://i.imgur.com/BbT2h66.jpeg', alt: 'Shisha Lounge Impression 14' },
-    { src: 'https://i.imgur.com/9wAqulY.jpeg', alt: 'Shisha Lounge Impression 15' }
+    { src: 'https://i.imgur.com/9fY7RAa.jpeg', alt: 'Shisha Lounge Impression 15' },
+    { src: 'https://i.imgur.com/gr4Qcpo.jpeg', alt: 'Shisha Lounge Impression 16' },
+    { src: 'https://i.imgur.com/S0KMV2o.jpeg', alt: 'Shisha Lounge Impression 17' },
+    { src: 'https://i.imgur.com/n5PWgKz.jpeg', alt: 'Shisha Lounge Impression 18' }
   ];
 
   return (
