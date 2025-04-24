@@ -30,11 +30,11 @@ function App() {
   };
 
   const openNineLineMenu = () => {
-    window.open('/Speisekarte NineLine.pdf', '_blank');
+    window.open('/Speisekarte_NineLine.pdf', '_blank');
   };
 
   const openFiveLineMenu = () => {
-    window.open('/Speisekarte FiveLine.pdf', '_blank');
+    window.open('/Speisekarte_FiveLine.pdf', '_blank');
   };
 
   const openLightbox = (imageSrc: string) => {
@@ -74,7 +74,7 @@ function App() {
                 alt="NineLine Logo" 
                 className="h-16 md:h-20"
               />
-              <span className="text-2xl md:text-3xl font-bold text-purple-400 ml-2">X-Line</span>
+              <span className="text-2xl md:text-3xl font-bold text-purple-400 ml-2"></span>
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -244,7 +244,7 @@ function App() {
                           <ul className="grid grid-cols-2 gap-3">
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                              <span>So-Do 16-18 Uhr Softdrinks + Pfeife 14,90€</span>
+                              <span>So-Do 16-18 Uhr Softdrinks + Shisha 14,90€</span>
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
@@ -256,7 +256,7 @@ function App() {
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                              <span>Fernseher</span>
+                              <span>Fernseher & Trash TV</span>
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
@@ -339,11 +339,11 @@ function App() {
                           <ul className="grid grid-cols-2 gap-3">
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                              <span>Montag ist Frauentag</span>
+                              <span>Montag Ladies only</span>
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                              <span>Playstation mit Beamer</span>
+                              <span>Playstation mit Beamer/Leinwand</span>
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
@@ -351,7 +351,7 @@ function App() {
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                              <span>Fernseher</span>
+                              <span>Fernseher & Trash TV</span>
                             </li>
                             <li className="flex items-center space-x-2">
                               <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
@@ -477,7 +477,7 @@ function App() {
                     <section>
                       <h2 className="text-xl font-semibold text-purple-400 mb-3">Angaben gemäß § 5 TMG</h2>
                       <p className="text-gray-300">
-                        NineLine Shisha Lounge<br />
+                        NineLine Cafê | Bar | Hookah<br />
                         Riemekestraße 85<br />
                         33102 Paderborn
                       </p>
@@ -515,7 +515,7 @@ function App() {
                     <section>
                       <h2 className="text-xl font-semibold text-purple-400 mb-3">Angaben gemäß § 5 TMG</h2>
                       <p className="text-gray-300">
-                        FiveLine Shisha Lounge<br />
+                        FiveLine Cafê | Bar | Hookah<br />
                         Am Twerspring 4<br />
                         33154 Salzkotten
                       </p>
