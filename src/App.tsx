@@ -244,9 +244,9 @@ function App() {
 
                         <div>
                           <h3 className="text-2xl font-semibold mb-4">Besonderheiten</h3>
-                          <ul className="grid grid-cols-2 gap-3">
-                            <li className="flex items-center space-x-2">
-                              <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
+                          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <li className="flex items-center space-x-1 md:space-x-2">
+                              <span className="min-w-2 h-2 bg-purple-400 rounded-full"></span>
                               <span>So-Do 16-18 Uhr Softdrinks + Shisha 14,90€</span>
                             </li>
                             <li className="flex items-center space-x-2">
@@ -339,9 +339,9 @@ function App() {
 
                         <div>
                           <h3 className="text-2xl font-semibold mb-4">Besonderheiten</h3>
-                          <ul className="grid grid-cols-2 gap-3">
-                            <li className="flex items-center space-x-2">
-                              <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
+                          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <li className="flex items-center space-x-1 md:space-x-2">
+                              <span className="min-w-2 h-2 bg-purple-400 rounded-full"></span>
                               <span>Montag Ladies only</span>
                             </li>
                             <li className="flex items-center space-x-2">
